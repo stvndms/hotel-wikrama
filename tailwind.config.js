@@ -6,6 +6,9 @@ module.exports = {
     "./resources/**/*.vue",
   ],
   theme: {
+    container: {
+      center:true,
+    },
     extend: {
       colors: {
       'orange': '#FF8833',
@@ -14,6 +17,9 @@ module.exports = {
     },
     fontFamily: {
       'poppins': ['Poppins']
+    },
+    screens: {
+      '2xl': '1320px',
     },
     },
   },

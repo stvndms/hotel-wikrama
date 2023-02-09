@@ -14,5 +14,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('login.register');
+    return view('landing.index');
+});
+
+Route::get('/login', function () {
+    return view('login.index');
+});
+
+Route::get('/admin', function () {
+    return view('admin.index');
+});
+
+Route::get('/table', function () {
+    return view('admin.room');
+});
+
+Route::get('/fasility', function () {
+    return view('admin.fasility');
+});
+
+Route::get('/log', function () {
+    return view('admin.log');
 });

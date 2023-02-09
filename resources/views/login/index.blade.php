@@ -12,10 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body class="font-poppins bg-cover bg-fixed bg-center bg-no-repeat" style="background-image: url('assets/image/Background.jpg')">
+<body class="font-poppins bg-cover bg-fixed bg-center bg-no-repeat" style="background-image: url('assets/image/bgmin.jpg')">
     <!-- Login Form Start -->
     <div class="flex justify-center items-center min-h-screen">
-        <div class="container 2xl:w-[550px] 2xl:h-[700px] lg:w-[450px] lg:h-[520px] md:w-[400px] md:h-[500px] w-[300px] h-[420px] bg-white/30 backdrop-blur-sm rounded-[10px] shadow-md 2xl:py-14 py-8 px-10 border-[1px] border-white">
+        <div class="container 2xl:w-[500px] 2xl:h-[650px] lg:w-[450px] lg:h-[520px] md:w-[400px] md:h-[500px] w-[300px] h-[420px] bg-white/30 backdrop-blur-sm rounded-[10px] shadow-md 2xl:py-14 py-8 px-10 border-[1px] border-white">
             <h2 class="font-semibold md:text-lg 2xl:text-xl text-sm block text-center">Welcome Back!</h2>
             <p class="text-[13px] 2xl:text-[14px] font-medium text-grey md:mt-2 mt-1 block text-center 2xl:mb-20 lg:mb-15 mb-10">Please Enter Your Details</p>
             <form action="">
