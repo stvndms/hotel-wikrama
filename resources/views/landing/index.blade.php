@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -22,6 +22,17 @@
                 <div class="py-4 lg:pl-8">
                     <a href="#home"><img src="assets/image/logo.png" alt="" class="w-24"></a>
                 </div>
+
+                <form action="{{ route('logout') }}" method="POST">
+                    @csrf
+                    <button class="nav-link px-3 bg-light border-0" type="submit">Logout</button>
+                </form>
+                <div class="flex items-center px-4 ">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4">
+                        <span class="hamburger_line"></span>
+                        <span class="hamburger_line"></span>
+                        <span class="hamburger_line"></span>
+
                 <div class="flex items-center px-4 lg:px-0">
                     <button id="hamburger" name="hamburger" type="button" class="block absolute right-1 lg:hidden">
                         <span class="hamburger_line bg-black transition duration-300 ease-in-out origin-top-left"></span>
