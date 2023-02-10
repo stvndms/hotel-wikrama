@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Wikrama</title>
     @vite('resources/css/app.css')
+
 </head>
 
 <body>
@@ -15,12 +16,9 @@
         <div class="container">
             <div class="flex items-center justify-between relative">
                 <div class="px-4">
-                    <a href="#home" class="font-bold text-lg block py-6">Hotel</a>
+                    <a href="#home" class="font-bold text-lg block py-6">Hoteacsacac    al</a>
                 </div>
-                <form action="{{ route('logout') }}" method="POST">
-                    @csrf
-                    <button class="nav-link px-3 bg-light border-0" type="submit">Logout</button>
-                </form>
+                    
                 <div class="flex items-center px-4 ">
                     <button id="hamburger" name="hamburger" type="button" class="block absolute right-4">
                         <span class="hamburger_line"></span>
