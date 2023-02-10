@@ -17,11 +17,11 @@ return new class extends Migration
             $table->id();
             // $table->foreign('user_id')->constrained('users');
             $table->string('guest_name');
-            $table->string('guest_photo');
+            $table->string('guest_photo')->nullable();
             $table->string('guest_phone');
             $table->string('guest_country');
             $table->string('guest_address');
-            $table->string('guest_id_card');
+            $table->string('guest_id_card')->nullable();
             $table->timestamps();
         });
     }
