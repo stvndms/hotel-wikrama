@@ -4,6 +4,9 @@ namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
+use App\Models\User;
+
 
 class DatabaseSeeder extends Seeder
 {
@@ -20,5 +23,29 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+
+        User::create([
+            'email' => 'fadhiilabiyyitamsil@gmail.com',
+            'password' => Hash::make('password'),
+            'role'=> 'guest'
+        ]);
+
+        User::create([
+            'email' => 'fadhiilreceptionist@gmail.com',
+            'password' => Hash::make('password-receptionist'),
+            'role'=> 'receptionist'
+        ]);
+
+        User::create([
+            'email' => 'fadhiiladmin@gmail.com',
+            'password' => Hash::make('password-admin'),
+            'role'=> 'admin'
+        ]);
+
+        User::create([
+            'email' => 'fadhiilsuperadmin@gmail.com',
+            'password' => Hash::make('password-superadmin'),
+            'role'=> 'superadmin'
+        ]);
     }
 }
