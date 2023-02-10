@@ -37,3 +37,19 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('landing.index');
 });
+
+Route::get('/admin', function () {
+    return view('admin.index');
+});
+
+Route::get('/table', function () {
+    return view('admin.room');
+});
+
+Route::get('/fasility', function () {
+    return view('admin.fasility');
+});
+
+Route::get('/log', function () {
+    return view('admin.log');
+});
